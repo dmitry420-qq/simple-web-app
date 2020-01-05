@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource
+            name="jdbc/db"
+            auth="Container"
+            type="javax.sql.DataSource"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost/orders?serverTimezone=UTC"
+            username="root"
+            password=""
+            maxTotal="8"
+            maxIdle="4"
+    />
+</Context>
